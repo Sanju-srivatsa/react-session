@@ -22,7 +22,7 @@ incrementCount = () => {
    <h1>Count: {this.state.count}</h1>
    <CounterTrigger incrementCount={this.incrementCount} />
    </div>
-      )
+      ) 
     }
 
 }
