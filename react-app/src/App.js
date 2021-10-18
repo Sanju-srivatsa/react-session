@@ -1,11 +1,32 @@
 import './App.css';
 import React from 'react'
-import Counter from './components/parentchild/Counter'
+import FunctionalCounter from './components/FunctionalCounter'
 {/*import TodoList from './components/TodoList'
 import Counter from './components/Counter'
 import ClassComponent from './components/ClassComponent'
-import FunctionalComponent from './components/FunctionalComponent'*/}
+import FunctionalComponent from './components/FunctionalComponent'
+import Counter from './components/parentchild/Counter'
+*/}
 
+
+class App extends React.Component{
+constructor(){
+  super()
+  this.state ={
+    age : 23
+  }
+}
+    render () {
+  
+ return( 
+   <div className="App">
+   <FunctionalCounter />
+   </div>
+      )
+    }
+
+}
+{/*
 class App extends React.Component{
 constructor(){
   super()
@@ -23,6 +44,8 @@ constructor(){
     }
 
 }
+
+*/ }
 
 { /*
 class App extends React.Component{
