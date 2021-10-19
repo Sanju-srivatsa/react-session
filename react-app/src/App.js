@@ -1,11 +1,12 @@
 import './App.css';
 import React from 'react'
-import Counter from './components/eventbinding/Counter'
+import Counter from './components/conditionalrendering/Counter'
 {/*import TodoList from './components/TodoList'
 import Counter from './components/Counter'
 import ClassComponent from './components/ClassComponent'
 import FunctionalComponent from './components/FunctionalComponent'
 import FunctionalCounter from './components/FunctionalCounter'
+import Counter from './components/eventbinding/Counter'
 import Counter from './components/parentchild/Counter'
 */}
 
